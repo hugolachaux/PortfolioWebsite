@@ -1,0 +1,148 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = ""
+    title = "Hugo Lachaux"
+    author = "Hugo Lachaux"
+    description = "Student in Aerospace engineering at IPSA"
+    copyright = "© Hugo Lachaux - All Rights Reserved"
+    theme = "light" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Hugo Lachaux"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/hugo-lachaux-363a29171/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/hugolachaux/Computer-Technologie-for-Telecommunications"
+        title = "GitHub"
+		
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Master's degree in Aerospace engineering"
+        college = "Institut Polytechnique des Sciences Avancées (IPSA Paris)"
+        dates = "2018-2023"
+       
+        [[params.education.list]]
+        degree = "ERASMUS semester abroad"
+        college = "Riga Technical University (RTU)"
+        dates = "September 2021-February 2022"
+
+        [[params.education.list]]
+        degree = "Scientific Highschool Diploma equivalent to A-level"
+        college = "Petit-Val (94) Highschool"
+        dates = "June 2018"
+
+        [[params.education.list]]
+        degree = "Certificate of aptitude for the functions of supervisor in group camps for minors (BAFA)"
+        dates = "2017"
+        college = "Organising activities to support the physical, emotional and social development of children; teaching basic educational principles while complying with the objectives set in the theory course; creating a safe play environment for children; working in collaboration with colleagues."
+
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Basic"
+
+        [[params.language.list]]
+        language = "Chinese"
+        level = "Basic"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Music: bass music, electro, synth, house…"
+		
+		[[params.hobbies.list]]
+        interest = "Chess: creator and president of the IPSA Chess club."
+
+        [[params.hobbies.list]]
+        interest = "Comics: Heroic fantasy, Manga, comic strip, aventure, sci-fi, Western…"
+
+        [[params.hobbies.list]]
+        interest = "Mythology: Greek, Roman, Egyptian."
+        
+    [params.aboutme]
+        description = "I am a student in my 4th year of engineering in a school focused on aeronautics and astrophysics, I am passionate about everything related to space in general and music. I am curious and friendly."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Order picker"
+        dates = "2017"
+		link = "https://global.toyota/en/"
+        company = "Toyota"
+        details = "Gathering of `ordered products`; `Packing` and `trimming` the packages (be careful with the fragility of certain products); Checking the `conformity` of the products; Loading onto the `transport vehicles` (trucks, cars); Validation of `delivery` and transport notes with the driver; Labelling of items and boxes; `Stock management`: control of product rotation, verification of availability, storage, inventory."
+
+        [[params.jobs.list]]
+        position = "Observation internship"
+        dates = "2015"
+		link = "http://www.iap.fr/?langue=en"
+        company = "Paris Institute of Astrophysics"
+        details = "Astrophysics and `astronomy courses`; Discovering the jobs in astronomy and `astrophysics research`; meeting with members of the laboratory; visit of the telescope of the `Observatoire de Paris`."
+
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Python"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Office suite (Excel, PowerPoint, Word)"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "FL Studio"
+        skillrating = 80
+
+        [[params.skills.list]]
+        skill = "Catia V5"
+        skillrating = 85
+
+#Contacts
+[params.projects]
+        title = "Contact me"
+
+        [[params.projects.list]]
+        title = "Email"
+        description = "hugo.lachaux@ipsa.fr"
+		
+		[[params.projects.list]]
+        title = "Personal number"
+        description = "+33 6 18 94 62 03"
+
+        [[params.projects.list]]
+        title = "Address"
+        description = "11 Boulevard de Brandebourg, Ivry-sur-Seine (94200), France"
